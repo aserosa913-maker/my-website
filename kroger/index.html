@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kroger Help Guides | Independent Information</title>
+<style>
+:root{--red:#242424;--gold:#c6a96b;--ink:#171b22;--muted:#667085;--line:#eceef2;--soft:#fff5f5}*{box-sizing:border-box}body{margin:0;color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.notice{background:#fff6df;color:#614b12;text-align:center;padding:9px 14px;font-size:12px}.back{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;margin:14px 22px;padding:0;border:1px solid var(--line);border-radius:999px;color:var(--ink);text-decoration:none;font-weight:750;background:white;font-size:22px}.back:hover{color:var(--red);background:var(--soft)}header{border-bottom:1px solid var(--line)}.nav{max-width:1180px;margin:auto;padding:15px 22px;display:flex;justify-content:space-between;align-items:center;gap:16px}.brand{font-weight:850;font-size:19px}.brand small{display:block;color:var(--muted);font-size:10px;letter-spacing:1.4px}.call,.btn{display:inline-block;background:var(--red);color:white;padding:12px 17px;border-radius:999px;text-decoration:none;font-weight:800}.hero{background:linear-gradient(115deg,#fff6f6,#fff 65%,#f2f5ff);padding:55px 22px}.inner,section{max-width:1100px;margin:auto}.hero h1{font-size:clamp(36px,5vw,60px);line-height:1.05;letter-spacing:-2px;margin:12px 0}.red{color:var(--red)}.lead{font-size:18px;color:#475467;max-width:750px}.fine{font-size:12px;color:var(--muted)}section{padding:42px 22px}.title{text-align:center;margin-bottom:25px}.title h2{font-size:clamp(27px,3vw,38px);margin:0 0 7px}.title p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.card{border:1px solid var(--line);border-radius:17px;padding:20px;min-height:170px}.card h3{margin:0 0 8px}.card p{font-size:14px;color:var(--muted)}.card a{color:var(--red);font-weight:800;text-decoration:none}.guide{margin-top:16px;padding:22px;background:#f8fafc;border-radius:17px}.guide h3{margin-top:0}.guide li{margin:7px 0;color:#475467}.contact{background:var(--soft);border-radius:20px;text-align:center;padding:28px}.contact p{color:#475467}footer{border-top:1px solid var(--line);padding:22px;color:var(--muted);font-size:12px;text-align:center}@media(max-width:760px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.nav{flex-wrap:wrap}}@media(max-width:520px){.grid{grid-template-columns:1fr}.back{margin-left:16px}.hero{padding:38px 18px}.nav{padding:14px 18px}.call{width:100%;text-align:center}section{padding:32px 18px}}
+.customer-assistance{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:16px 0 0;font-size:17px;color:#171b22}.customer-phone-box{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 18px;border-radius:12px;background:#242424;color:#fff;font-weight:850;text-decoration:none;box-shadow:0 6px 16px #24242425}.customer-phone-box:hover{background:#111}@media(max-width:520px){.customer-assistance{align-items:flex-start;flex-direction:column;gap:8px}.customer-phone-box{width:100%;max-width:280px}}
+.hero{position:relative;overflow:hidden}.hero>.inner{position:relative;z-index:2;max-width:1100px;padding-right:360px}
+.hero-art{position:absolute;right:max(24px,calc((100vw - 1100px)/2));top:50%;transform:translateY(-48%);width:min(38%,390px);height:320px;display:flex;align-items:center;justify-content:center;z-index:1}
+.art-orbit{position:absolute;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff 0,#f7e8c6 45%,#eee4cf 100%);opacity:.9;animation:orbitPulse 6s ease-in-out infinite}
+.grocery-illustration{position:relative;width:100%;max-height:330px;filter:drop-shadow(0 15px 18px #171b2217);overflow:visible}
+.float-bag{transform-origin:135px 190px;animation:floatBag 4.6s ease-in-out infinite}
+.float-produce{transform-origin:260px 150px;animation:floatProduce 4s ease-in-out infinite}
+.float-basket{transform-origin:220px 245px;animation:floatBasket 5s ease-in-out infinite}
+.sparkle{animation:sparkle 3.2s ease-in-out infinite;transform-origin:340px 96px}
+.art-chip{position:absolute;display:flex;align-items:center;gap:8px;padding:10px 14px;border:1px solid #ffffffc9;border-radius:13px;background:#ffffffeb;box-shadow:0 10px 30px #20212412;color:#30343b;font-size:12px;font-weight:800;white-space:nowrap;backdrop-filter:blur(8px);animation:chipFloat 4.5s ease-in-out infinite}
+.art-chip span{color:#a58343}.chip-one{top:32px;right:0}.chip-two{bottom:22px;left:0;animation-delay:-1.7s}.chip-check{display:inline-grid;place-items:center;width:20px;height:20px;background:#e7f1e2;border-radius:50%;color:#587747!important}
+.card{position:relative;overflow:hidden;transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease;background:linear-gradient(145deg,#fff,#fffdfb);animation:cardEnter .7s both}
+.card:before{content:"";position:absolute;left:0;top:0;width:100%;height:3px;background:linear-gradient(90deg,#c6a96b,#f1e2c2,#789765);transform:scaleX(0);transform-origin:left;transition:transform .28s ease}
+.card:hover{transform:translateY(-6px);box-shadow:0 16px 32px #20212412;border-color:#dfd0af}.card:hover:before{transform:scaleX(1)}
+.card h3{display:flex;align-items:center;gap:8px}.card h3:first-letter{display:inline-block}
+.card:nth-child(2){animation-delay:.06s}.card:nth-child(3){animation-delay:.12s}.card:nth-child(4){animation-delay:.18s}.card:nth-child(5){animation-delay:.24s}.card:nth-child(6){animation-delay:.3s}
+.card a{display:inline-flex;align-items:center;gap:5px;transition:gap .2s ease,color .2s ease}.card a:hover{gap:10px;color:#9b7b3d}
+.guide{border:1px solid #edf0f3;transition:transform .25s ease,box-shadow .25s ease}.guide:hover{transform:translateY(-3px);box-shadow:0 12px 28px #2021240c}
+.call,.customer-phone-box{transition:transform .2s ease,box-shadow .2s ease}.call:hover,.customer-phone-box:hover{transform:translateY(-2px);box-shadow:0 12px 24px #20212420}
+@keyframes floatBag{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-10px) rotate(1.5deg)}}
+@keyframes floatProduce{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-13px) rotate(-3deg)}}
+@keyframes floatBasket{0%,100%{transform:translateY(0)}50%{transform:translateY(5px)}}
+@keyframes orbitPulse{0%,100%{transform:scale(1);opacity:.8}50%{transform:scale(1.04);opacity:1}}
+@keyframes sparkle{0%,100%{opacity:.55;transform:scale(.9) rotate(0)}50%{opacity:1;transform:scale(1.08) rotate(10deg)}}
+@keyframes chipFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes cardEnter{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:900px){.hero>.inner{padding-right:0}.hero-art{position:relative;right:auto;top:auto;transform:none;width:min(100%,370px);height:260px;margin:20px auto -5px}.grocery-illustration{max-height:270px}.art-orbit{width:220px;height:220px}.chip-one{right:4px}.chip-two{left:2px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+/* Removed the top-left navigation arrow as requested. */
+</style>
+<style>
+.privacy-link{display:inline-block;margin:12px 8px 0;padding:9px 14px;border:1px solid #c6a96b;border-radius:10px;color:#242424;background:#fff;text-decoration:none;font-weight:700;font-size:13px}
+.privacy-link:hover{background:#f5eddd}
+</style>
+
+<style>
+.site-footer{border-top:1px solid #e8eaf0;padding:28px 20px 34px;margin-top:34px;background:#fff;text-align:center;color:#687386;font-size:13px}
+.site-footer .copyright{margin:0 0 14px;font-weight:600}
+.site-footer .quick-title{font-size:12px;text-transform:uppercase;letter-spacing:1.4px;font-weight:850;color:#202124;margin:0 0 12px}
+.site-footer .quick-links{display:flex;justify-content:center;flex-wrap:wrap;gap:10px 20px}
+.site-footer a{color:#343434;text-decoration:none;font-weight:700}
+.site-footer a:hover{color:#9b7b3d;text-decoration:underline}
+</style>
+</head><body>
+
+
+<header><div class="nav"><div class="brand">Kroger Help Guides<small>INDEPENDENT INFORMATION</small></div><a class="call" href="tel:15077220465">☎ 507-722-0465</a></div></header>
+<div class="hero"><div class="inner"><p class="red"><strong>GROCERY ORDER INFORMATION</strong></p><h1>Need help with your <span class="red">Kroger order?</span></h1><p class="lead">Browse simple informational guides about grocery delivery, pickup, missing items, refunds, payments, account access, coupons, and membership questions.</p>
+<div class="customer-assistance"><strong>Customer Assistance:</strong><a class="customer-phone-box" href="tel:15077220465">☎ 507-722-0465</a></div></div>
+<div class="hero-art" aria-hidden="true">
+  <div class="art-orbit"></div>
+  <svg class="grocery-illustration" viewBox="0 0 420 340" role="img" aria-label="Illustration of grocery shopping bags and fresh produce">
+    <defs>
+      <linearGradient id="bagGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7dca1"/><stop offset="1" stop-color="#c6a96b"/></linearGradient>
+      <linearGradient id="basketGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#30343b"/><stop offset="1" stop-color="#111318"/></linearGradient>
+    </defs>
+    <ellipse cx="214" cy="294" rx="135" ry="18" fill="#1c2028" opacity=".08"/>
+    <g class="float-bag">
+      <path d="M85 117 L185 117 L202 274 L68 274 Z" fill="url(#bagGrad)"/>
+      <path d="M111 119 C108 64 164 64 160 119" fill="none" stroke="#9b7b3d" stroke-width="10" stroke-linecap="round"/>
+      <path d="M99 147 L175 147" stroke="#fff5df" stroke-width="5" opacity=".8"/>
+      <path d="M105 178 C125 151 151 151 167 178 C147 201 125 201 105 178Z" fill="#6c8b59"/>
+      <path d="M136 157 C132 177 134 191 139 202" stroke="#eaf2d9" stroke-width="3" fill="none"/>
+    </g>
+    <g class="float-produce">
+      <path d="M213 151 C181 118 204 83 233 105 C249 75 291 96 277 132 L258 178 L226 179 Z" fill="#789765"/>
+      <path d="M245 113 C244 91 255 81 267 79" fill="none" stroke="#4f6e43" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="295" cy="184" r="39" fill="#d94d42"/>
+      <path d="M294 147 C282 131 266 139 270 152 C282 151 288 157 294 165 C300 154 309 151 320 154 C322 140 304 134 294 147Z" fill="#6d8b4d"/>
+      <circle cx="310" cy="173" r="7" fill="#f59b8d" opacity=".65"/>
+    </g>
+    <g class="float-basket">
+      <path d="M125 197 L331 197 L306 280 Q302 292 289 292 L158 292 Q146 292 143 280 Z" fill="url(#basketGrad)"/>
+      <path d="M146 211 L311 211" stroke="#c6a96b" stroke-width="5" stroke-linecap="round"/>
+      <path d="M161 223 L172 275 M199 223 L203 278 M239 223 L236 278 M277 223 L267 276" stroke="#8b929e" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+      <path d="M143 197 C150 157 179 154 198 197" fill="none" stroke="#272b33" stroke-width="10" stroke-linecap="round"/>
+      <path d="M270 197 C279 157 306 157 319 197" fill="none" stroke="#272b33" stroke-width="10" stroke-linecap="round"/>
+    </g>
+    <g class="sparkle"><path d="M340 74 L345 91 L362 96 L345 101 L340 118 L335 101 L318 96 L335 91 Z" fill="#c6a96b"/><circle cx="78" cy="77" r="5" fill="#d94d42"/><circle cx="354" cy="149" r="4" fill="#789765"/></g>
+  </svg>
+  <div class="art-chip chip-one">Fresh choices <span>✦</span></div>
+  <div class="art-chip chip-two"><span class="chip-check">✓</span> Helpful guides</div>
+</div>
+</div></div>
+<section id="topics"><div class="title"><h2>What do you need help with?</h2><p>Choose a topic to see useful next steps.</p></div><div class="grid">
+<div class="card"><h3>🛍️ Missing or incorrect items</h3><p>Check missing, substituted, damaged, or incorrect groceries.</p><a href="guides/missing.html">Read guide →</a></div>
+<div class="card"><h3>🚚 Order not delivered</h3><p>Check delivery status and what to do if an order has not arrived.</p><a href="guides/delivery.html">Read guide →</a></div>
+<div class="card"><h3>⏱️ Late delivery</h3><p>Review delivery windows and order notifications.</p><a href="guides/late-delivery.html">Read guide →</a></div>
+<div class="card"><h3>💳 Refunds and payments</h3><p>Find general steps for receipts, charges, and refund follow-up.</p><a href="guides/refunds.html">Read guide →</a></div>
+<div class="card"><h3>👤 Account and app</h3><p>Basic sign-in, password reset, and app troubleshooting.</p><a href="guides/account.html">Read guide →</a></div>
+<div class="card"><h3>🏷️ Coupons and rewards</h3><p>Check coupon activation, eligibility, and rewards basics.</p><a href="guides/coupons.html">Read guide →</a></div>
+<div class="card"><h3>🛻 Pickup orders</h3><p>Review pickup time, substitutions, and unavailable items.</p><a href="guides/pickup.html">Read guide →</a></div>
+<div class="card"><h3>⭐ Boost membership</h3><p>Check membership status, benefits, and billing.</p><a href="guides/boost.html">Read guide →</a></div>
+<div class="card"><h3>📦 Change or cancel an order</h3><p>Check available options for editing or cancelling an order.</p><a href="guides/changes.html">Read guide →</a></div></div></section>
+<section id="guides"><div class="title"><h2>Step-by-Step Guides</h2><p>General troubleshooting for common grocery-order questions.</p></div>
+<div class="guide" id="missing"><h3>Missing or incorrect items</h3><ol><li>Compare items received with your order receipt.</li><li>Keep the order number and photos of damaged or incorrect items if useful.</li><li>Report the issue using Kroger’s official website or app.</li></ol></div>
+<div class="guide" id="delivery"><h3>Delivery status or late order</h3><ol><li>Check order status and the estimated delivery window in your account.</li><li>Confirm the delivery address and review order notifications.</li><li>If marked delivered but missing, contact Kroger through official help channels.</li></ol></div>
+<div class="guide" id="refunds"><h3>Refund and payment questions</h3><ol><li>Review the order receipt and payment statement.</li><li>Check the order details for refund or adjustment information.</li><li>For account-specific billing decisions, use Kroger’s official website or app.</li></ol></div>
+<div class="guide" id="account"><h3>Account or app troubleshooting</h3><ol><li>Confirm you are using the correct sign-in details.</li><li>Update the app and use the official password-reset process if needed.</li><li>Never share passwords or verification codes with this independent website.</li></ol></div>
+<div class="guide" id="coupons"><h3>Digital coupons and rewards</h3><ol><li>Sign in to the correct loyalty account.</li><li>Check coupon dates, terms, eligible products, and activation requirements.</li><li>Keep your receipt and contact Kroger through official channels about missing points or discounts.</li></ol></div>
+<div class="guide" id="pickup"><h3>Pickup orders</h3><ol><li>Review the selected pickup store and scheduled time.</li><li>Check messages about substitutions, delays, or unavailable items.</li><li>Use official account or store contact details for order-specific changes.</li></ol></div>
+<div class="guide" id="boost"><h3>Boost membership</h3><ol><li>Review membership status and renewal details in your official account.</li><li>Check benefit eligibility and purchase requirements.</li><li>Use official membership settings for billing or cancellation questions.</li></ol></div>
+<div class="guide" id="changes"><h3>Change or cancel an order</h3><ol><li>Open order details as soon as possible.</li><li>Look for edit or cancellation options; availability depends on order status.</li><li>If no option is available, contact Kroger through official help channels.</li></ol></div></section>
+<section><div class="contact"><h2>Customer Assistance</h2><a class="btn" href="tel:15077220465">Call 507-722-0465</a></div></section>
+
+<footer class="site-footer">
+  <p class="copyright">© <span id="footer-year">2026</span> Kroger Help Guides. All rights reserved.</p>
+  <p class="quick-title">Quick Links</p>
+  <nav class="quick-links" aria-label="Quick links">
+    <a href="./index.html">Home</a>
+    <a href="./index.html#topics">Help Topics</a>
+    <a href="./index.html#guides">Guides</a>
+    <a href="./index.html#contact">Contact</a>
+    <a href="./privacy-policy.html">Privacy Policy</a>
+  </nav>
+</footer>
+
+</body></html>
