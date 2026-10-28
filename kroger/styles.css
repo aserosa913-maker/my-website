@@ -117,3 +117,11 @@ h1{font:800 clamp(42px,5.2vw,66px)/1.04 'Manrope',sans-serif;letter-spacing:-3px
 @keyframes bagSway{0%,100%{rotate:-3deg;translate:0 0}50%{rotate:4deg;translate:0 -5px}}
 @media(max-width:800px){.grocery-bag{right:4%;scale:.78}.ghost-two{right:5%}.pumpkin-small{right:12%}}
 @media(prefers-reduced-motion:reduce){.ghost,.candy-corn,.grocery-bag{animation:none!important}}
+
+
+/* Clear, high-contrast customer assistance panel */
+.hero-assistance{background:linear-gradient(115deg,#0b3970 0%,#1b5ca8 100%) !important;border:2px solid #f3b544 !important;border-left:6px solid #f3b544 !important;box-shadow:0 12px 28px rgba(13,55,105,.22) !important;color:#fff !important}
+.hero-assistance .assistance-label{color:#fff !important;font-size:12px !important;letter-spacing:1.1px !important}
+.hero-assistance a{color:#fff !important;font-size:24px !important;font-weight:900 !important}
+.hero-assistance a:hover{color:#fff !important;text-decoration:underline !important}
+@media(max-width:600px){.hero-assistance a{font-size:21px !important}}
