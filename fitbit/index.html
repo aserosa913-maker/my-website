@@ -2,152 +2,73 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Fitbit Help Guide | Independent Fitbit Assistance</title>
-<meta name="description" content="Independent Fitbit help guides for setup, syncing, Bluetooth, charging, notifications and account troubleshooting.">
-<link rel="stylesheet" href="assets/styles.css">
+<meta name="theme-color" content="#ee1c2b">
+<title>DoorDash Help Guide | Independent Resource</title>
+<meta name="description" content="Independent informational guides for food delivery orders, refunds, payments, memberships and account access. Not affiliated with DoorDash.">
+<style>
+:root{--red:#ed1c2e;--red2:#d70d20;--ink:#101923;--muted:#596577;--line:#eceef2;--pink:#fff0f1}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:var(--ink);background:#fff;-webkit-font-smoothing:antialiased}a{color:inherit}.wrap{width:min(1480px,calc(100% - 60px));margin:auto}
+header{height:80px;position:sticky;top:0;z-index:20;background:#fffffff2;backdrop-filter:blur(12px);border-bottom:1px solid #eee}.nav{height:100%;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:270px}.brand-mark{width:50px;height:40px;position:relative}.brand-mark:before{content:"";position:absolute;left:0;top:4px;width:43px;height:30px;background:var(--red);border-radius:4px 17px 5px 4px;clip-path:polygon(0 0,100% 0,74% 100%,40% 100%,57% 61%,18% 61%)}.brand-text{font-weight:900;font-size:24px;letter-spacing:-1px;line-height:1}.brand-text span{display:block;font-size:17px;letter-spacing:-.4px;margin-top:4px}.brand-text small{display:block;font-size:9px;letter-spacing:1.1px;text-transform:uppercase;color:#697383;margin-top:4px}.navlinks{display:flex;align-items:center;gap:clamp(20px,3.2vw,44px)}.navlinks a{text-decoration:none;font-size:14px;font-weight:750;position:relative;padding:10px 0}.navlinks a:after{content:"";height:2px;background:var(--red);position:absolute;left:0;bottom:2px;width:0;transition:.2s}.navlinks a:hover:after,.navlinks a.active:after{width:100%}.call{background:var(--red);color:#fff;text-decoration:none;border-radius:999px;padding:12px 22px;font-weight:850;white-space:nowrap;box-shadow:0 6px 18px #ed1c2e24;transition:.2s}.call:hover{background:var(--red2);transform:translateY(-2px)}.menu{display:none;border:1px solid var(--line);background:#fff;border-radius:10px;padding:8px 12px;font-size:20px}
+.hero{background:linear-gradient(105deg,#fff8f8 0%,#fff5f5 55%,#eaf3ff 100%);overflow:hidden}.hero-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;min-height:430px;gap:10px;padding:34px 0 22px}.hero-copy{position:relative;z-index:2}.hero h1{font-size:clamp(42px,5.1vw,70px);letter-spacing:-2.8px;line-height:1.02;font-weight:950;margin:0 0 18px}.hero h1 span{color:var(--red)}.hero-copy>p{font-size:clamp(17px,1.65vw,22px);line-height:1.35;max-width:610px;margin:0 0 22px;color:#202b38}.feature-row{display:flex;align-items:center;gap:17px;margin:20px 0 26px}.feature{display:flex;align-items:center;gap:9px;padding-right:17px;border-right:1px solid #eadfe1;font-size:13px;font-weight:850;line-height:1.1}.feature:last-child{border:0}.feature i{font-style:normal;color:var(--red);font-size:30px}.hero-cta{display:inline-flex;align-items:center;gap:16px;text-decoration:none;color:white;background:linear-gradient(100deg,#ff1828,#df0619);border-radius:999px;padding:13px 25px;box-shadow:0 12px 22px #ed1c2e25;transition:.2s}.hero-cta:hover{transform:translateY(-3px);box-shadow:0 16px 30px #ed1c2e30}.hero-cta .phone{font-size:34px;line-height:1}.hero-cta small{display:block;font-size:15px}.hero-cta strong{display:block;font-size:27px;line-height:1.05;letter-spacing:.3px}.hero-cta .chevron{font-size:31px;margin-left:6px}.hero-art{height:390px;position:relative;display:flex;align-items:center;justify-content:center}.art-backdrop{position:absolute;right:4%;top:2%;width:min(35vw,410px);height:min(35vw,410px);border-radius:50%;background:linear-gradient(145deg,#ffe0e2,#fff 70%);box-shadow:0 15px 50px #ed1c2e0b}.phone-mock{position:absolute;left:2%;bottom:6%;width:135px;height:218px;border:8px solid #27313c;border-radius:25px;background:white;transform:rotate(-7deg);box-shadow:0 20px 28px #1b26331c;z-index:2}.phone-inner{margin:10px auto;width:82%;height:88%;border-radius:12px;background:linear-gradient(#fff4ed,#fff);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px}.burger{font-size:52px}.line{width:70%;height:7px;background:#f5c1bc;border-radius:8px}.line.short{width:45%}.courier-svg{position:relative;z-index:3;width:min(410px,95%);height:auto;max-height:385px;filter:drop-shadow(0 13px 10px #9b25301c);animation:bob 5s ease-in-out infinite}.delivered{position:absolute;right:3%;top:7%;z-index:4;background:#fff;border-radius:18px;padding:12px 15px;box-shadow:0 8px 28px #1b263312;font-size:13px;font-weight:850;transform:rotate(4deg)}.delivered b{color:#27ad76;font-size:23px;margin-right:5px}.pin{position:absolute;right:0;top:30%;font-size:48px;z-index:4}.route{position:absolute;right:0;top:42%;height:120px;width:80px;border-right:4px dashed #ff5c68;border-bottom:4px dashed #ff5c68;border-radius:0 0 45% 0;transform:rotate(10deg)}
+.section{padding:27px 0 43px}.section-head{text-align:center;margin:0 auto 19px}.section-head h2{font-size:clamp(30px,3.6vw,43px);letter-spacing:-1.5px;line-height:1.12;margin:0 0 3px}.section-head h2 span{color:var(--red)}.section-head p{margin:0;color:#687181;font-size:16px}.topics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.topic{position:relative;display:block;min-height:148px;padding:16px 20px;text-decoration:none;border:1px solid #eff0f3;border-radius:13px;background:#fff;box-shadow:0 5px 20px #1522350a;transition:transform .2s,box-shadow .2s,border-color .2s}.topic:hover{transform:translateY(-4px);box-shadow:0 14px 30px #15223514;border-color:#ffc0c6}.emoji{font-size:30px;line-height:1;margin-bottom:10px}.topic h3{font-size:16px;line-height:1.15;letter-spacing:-.3px;margin:0 0 6px}.topic p{font-size:13px;color:#606c7d;margin:0;padding-right:8px}.arrow{position:absolute;right:12px;bottom:12px;width:31px;height:31px;border-radius:50%;background:#fff0f1;color:var(--red);display:grid;place-items:center;font-size:23px}.topic:hover .arrow{background:var(--red);color:#fff}
+.contact-band{background:linear-gradient(105deg,#ffe9eb,#fff6f6);padding:29px 0;overflow:hidden}.contact-content{display:grid;grid-template-columns:1fr 1.1fr;gap:30px;align-items:center}.contact-art{display:flex;align-items:center;justify-content:center;gap:20px;min-height:170px}.big-phone{width:105px;height:160px;border:8px solid #27313d;border-radius:24px;background:#fff;display:grid;place-items:center;font-size:45px;transform:rotate(-7deg);box-shadow:0 10px 24px #1d2a3a20}.food-icons{font-size:45px;line-height:1.25}.support-copy h2{font-size:33px;letter-spacing:-1px;line-height:1.1;margin:0 0 3px}.support-copy h3{font-size:21px;margin:0 0 8px}.support-copy p{font-size:14px;color:#4f5b69;margin:0 0 16px}.support-copy .hero-cta{padding:12px 23px}.support-copy .hero-cta strong{font-size:23px}
+.guides{padding:55px 0;background:#f8f9fb}.guide-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.guide{background:#fff;border:1px solid var(--line);border-radius:15px;padding:22px;scroll-margin-top:100px}.guide small{font-size:11px;font-weight:900;letter-spacing:1px;color:var(--red)}.guide h3{font-size:19px;margin:7px 0}.guide ol{padding-left:20px;color:#596576;font-size:13px}.guide li{padding:3px 0}.guide a{color:var(--red);font-size:12px;font-weight:850;text-decoration:none}.guide a:hover{text-decoration:underline}.faq{max-width:850px;margin:auto}.faq details{border-bottom:1px solid var(--line);padding:17px 4px}.faq summary{list-style:none;display:flex;justify-content:space-between;gap:16px;cursor:pointer;font-weight:800}.faq summary::-webkit-details-marker{display:none}.faq summary:after{content:"+";color:var(--red);font-size:22px}.faq details[open] summary:after{content:"−"}.faq details p{color:var(--muted);font-size:14px}
+footer{background:#101720;color:#edf1f6;padding:30px 0 17px}.footer-grid{display:grid;grid-template-columns:1.3fr .7fr 1fr;gap:32px;padding-bottom:22px}.footer-logo{font-size:21px;font-weight:900;line-height:1}.footer-logo span{display:block;font-size:15px;margin-top:4px}.footer-logo small{display:block;color:#aeb8c6;font-size:9px;letter-spacing:1px;text-transform:uppercase;margin-top:5px}.footer-about{max-width:330px;font-size:13px;color:#b9c2ce}.footer-grid h4{font-size:13px;margin:2px 0 11px}.footer-links{display:grid;gap:8px}.footer-links a{color:#bbc4cf;text-decoration:none;font-size:13px}.footer-links a:hover{color:white}.footer-phone{font-size:18px;font-weight:900;text-decoration:none}.footer-bottom{border-top:1px solid #303945;padding-top:13px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:11px;color:#b0bac7}.disclaimer{text-align:right}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media(min-width:1900px){.hero-grid{min-height:560px}.hero-art{height:500px}.section{padding:40px 0 55px}.topic{min-height:175px;padding:22px}.topic h3{font-size:18px}.topic p{font-size:14px}}
+@media(max-width:1000px){.wrap{width:calc(100% - 40px)}.brand{min-width:220px}.brand-text{font-size:20px}.navlinks{gap:18px}.hero-grid{gap:0}.hero-art{height:350px}.topics{grid-template-columns:repeat(3,minmax(0,1fr))}.guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){.wrap{width:calc(100% - 28px)}header{height:68px}.brand{min-width:0}.brand-mark{width:42px}.brand-text{font-size:17px}.brand-text span{font-size:14px}.nav>.call{display:none}.menu{display:block}.navlinks{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;padding:17px 24px;flex-direction:column;align-items:flex-start;border-bottom:1px solid var(--line);gap:12px}.navlinks.open{display:flex}.hero-grid{grid-template-columns:1fr;padding:37px 0 20px}.hero h1{font-size:clamp(40px,9vw,58px);letter-spacing:-2px}.hero-copy>p{font-size:17px}.feature-row{gap:10px}.feature{font-size:12px;padding-right:9px}.feature i{font-size:24px}.hero-cta{padding:12px 17px;gap:11px}.hero-cta strong{font-size:22px}.hero-cta small{font-size:13px}.hero-art{height:290px;margin-top:9px}.art-backdrop{width:270px;height:270px;right:10%}.courier-svg{width:310px;max-height:290px}.phone-mock{width:100px;height:165px;left:0;bottom:5%}.burger{font-size:38px}.delivered{right:0;font-size:11px}.pin{right:0;font-size:35px}.route{right:-5px}.section{padding:25px 0 35px}.section-head h2{font-size:30px}.section-head p{font-size:14px}.topics{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.topic{min-height:153px;padding:14px 13px}.emoji{font-size:26px}.topic h3{font-size:14px}.topic p{font-size:11.5px}.arrow{width:25px;height:25px;right:8px;bottom:8px;font-size:18px}.contact-content{grid-template-columns:1fr;gap:4px}.contact-art{min-height:120px}.big-phone{width:76px;height:120px;font-size:34px}.food-icons{font-size:35px}.support-copy h2{font-size:28px}.support-copy h3{font-size:18px}.support-copy .hero-cta strong{font-size:20px}.guides{padding:42px 0}.guide-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr;gap:22px}.footer-grid>div:first-child{grid-column:1/-1}.disclaimer{text-align:left}}
+@media(max-width:360px){.topics{grid-template-columns:1fr}.topic{min-height:0;padding:17px}.topic h3{font-size:16px}.topic p{font-size:13px}.hero-cta{width:100%;justify-content:center}.footer-grid{grid-template-columns:1fr}.footer-grid>div:first-child{grid-column:auto}}
+</style>
 </head>
 <body>
-<header class="site-header">
-  <div class="container nav-wrap">
-    <a class="brand" href="index.html"><span class="brand-mark">F</span><span>Fitbit Help Guide</span></a>
-    <nav>
-      <a href="#guides">Guides</a><a href="#help">Find Help</a>
-      <a href="models.html">Devices</a>
-      <a href="#about">About Services</a>
-      <div class="ref-search">⌕ <input aria-label="Search guides" placeholder="Search guides..."></div><a class="nav-phone" href="tel:+15077220465">+1 (507) 722-0465</a>
-    </nav>
-  </div>
-</header>
-
+<header><div class="wrap nav"><a class="brand" href="#home"><span class="brand-mark"></span><span class="brand-text">DoorDash Help<span>& Support</span><small>Independent Guide</small></span></a><nav class="navlinks" id="navlinks"><a class="active" href="#home">Home</a><a href="#topics">Help Topics</a><a href="#guides">Guides</a><a href="#contact">Contact</a></nav><a class="call" href="tel:+15077220465">☎ &nbsp;507-722-0465</a><button class="menu" id="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button></div></header>
 <main>
-<section class="reference-hero">
-  <div class="ref-container ref-hero-grid">
-    <div class="ref-hero-copy">
-      <div class="ref-eyebrow">FITBIT HELP &amp; SUPPORT GUIDES</div>
-      <h1>What do you need help with today?</h1>
-      <p>Find easy step-by-step guides for Fitbit setup, syncing, Bluetooth, charging, notifications and account access. Choose a topic below to get started or call our support line for immediate assistance.</p>
-      <div class="ref-actions">
-        <a href="tel:+15077220465" class="ref-call">☎ <span>Call +1 (507) 722-0465</span> <b>→</b></a>
-        <a href="#guides" class="ref-browse">▣ <span>Browse All Guides</span> <b>→</b></a>
-      </div>
-    </div>
-    <div class="ref-hero-visual">
-      <img src="assets/hero-watch.png" alt="Fitbit smartwatch">
-      <div class="health-note">
-        <em>Your health<br>in your hands.</em>
-        <i></i>
-        <div>♡ &nbsp; Track</div>
-        <div>▥ &nbsp; Improve</div>
-        <div>ϟ &nbsp; Stay connected</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="ref-devices">
-  <div class="ref-container">
-    <div class="device-heading">
-      <div>
-        <div class="ref-eyebrow">CHOOSE YOUR DEVICE</div>
-        <h2>Which Fitbit do you have?</h2>
-        <p>Select your device family to open the setup and troubleshooting guide.</p>
-      </div>
-      <a href="models.html" class="all-devices">▦ &nbsp; Not sure? View all devices &nbsp; →</a>
-    </div>
-    <div class="ref-device-grid">
-      <a class="ref-device-card" href="guides/setup.html"><img src="assets/charge.png"><strong>Charge</strong><span>Tracker</span><b>›</b></a>
-      <a class="ref-device-card" href="guides/setup.html"><img src="assets/inspire.png"><strong>Inspire</strong><span>Tracker</span><b>›</b></a>
-      <a class="ref-device-card" href="guides/setup.html"><img src="assets/versa.png"><strong>Versa</strong><span>Smartwatch</span><b>›</b></a>
-      <a class="ref-device-card" href="guides/setup.html"><img src="assets/sense.png"><strong>Sense</strong><span>Smartwatch</span><b>›</b></a>
-      <a class="ref-device-card" href="guides/setup.html"><img src="assets/luxe.png"><strong>Luxe</strong><span>Tracker</span><b>›</b></a>
-      <a class="ref-device-card" href="guides/setup.html"><img src="assets/ace.png"><strong>Ace</strong><span>Kids tracker</span><b>›</b></a>
-    </div>
-    <div class="ref-topic-bar">
-      <a href="guides/setup.html"><b>⚙</b><span><strong>Set Up</strong><small>Get started with your Fitbit</small></span></a>
-      <a href="guides/sync.html"><b>↻</b><span><strong>Sync Issues</strong><small>Fix syncing problems</small></span></a>
-      <a href="guides/bluetooth.html"><b>⌁</b><span><strong>Bluetooth</strong><small>Connect your device</small></span></a>
-      <a href="guides/charging.html"><b>▯</b><span><strong>Charging</strong><small>Troubleshoot charging</small></span></a>
-      <a href="guides/notifications.html"><b>♧</b><span><strong>Notifications</strong><small>Manage alerts</small></span></a>
-      <a href="guides/account.html"><b>♙</b><span><strong>Account Access</strong><small>Sign in and account help</small></span></a>
-    </div>
-  </div>
-</section>
-<section class="guides-intro" id="guides">
-  <div class="container">
-    <div class="guides-intro-inner">
-      <div>
-        <div class="eyebrow">GUIDES</div>
-        <h2>Find the right Fitbit guide</h2>
-      </div>
-      <div class="guides-copy">
-        <p>You're looking at a simple collection of Fitbit setup and troubleshooting guides.</p>
-        <p>Choose a guide based on the problem you're experiencing with your device.</p>
-        <p>Setup guides explain how to get your Fitbit connected and ready to use.</p>
-        <p>Troubleshooting guides cover common syncing, Bluetooth, charging and notification issues.</p>
-        <p>If you need additional customer assistance, you can use the assistance option below.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section help-section" id="help">
-  <div class="container">
-    <div class="section-heading">
-      <div>
-        <div class="eyebrow">QUICK HELP</div>
-        <h2>What can we help you with?</h2>
-      </div>
-      <p>Pick the issue that matches what you're seeing on your Fitbit.</p>
-    </div>
-    <div class="help-grid">
-      <a class="help-card" href="guides/setup.html"><span class="icon">⌁</span><span><strong>Set up my Fitbit</strong><small>Start, pair and configure your device</small></span><b>→</b></a>
-      <a class="help-card" href="guides/sync.html"><span class="icon">↻</span><span><strong>Fitbit won't sync</strong><small>Sync, app and connection troubleshooting</small></span><b>→</b></a>
-      <a class="help-card" href="guides/bluetooth.html"><span class="icon">⌁</span><span><strong>Bluetooth connection</strong><small>Fix pairing and connection problems</small></span><b>→</b></a>
-      <a class="help-card" href="guides/charging.html"><span class="icon">⚡</span><span><strong>It won't charge</strong><small>Charging and power troubleshooting</small></span><b>→</b></a>
-      <a class="help-card" href="guides/notifications.html"><span class="icon">◔</span><span><strong>Notifications</strong><small>Calls, texts and app notifications</small></span><b>→</b></a>
-      <a class="help-card" href="guides/account.html"><span class="icon">◎</span><span><strong>Account or login</strong><small>Sign-in and account access guidance</small></span><b>→</b></a>
-    </div>
-  </div>
-</section>
-
-
-
-<section class="assistance">
-  <div class="container">
-    <div class="assistance-card">
-      <div>
-        <div class="eyebrow">CUSTOMER ASSISTANCE</div>
-        <h2>Need help with a Fitbit issue?</h2>
-        <p>Get assistance with common setup and troubleshooting questions.</p>
-        <div class="service-tags"><span>Setup</span><span>Syncing</span><span>Bluetooth</span><span>Charging</span><span>Notifications</span><span>Account access</span></div>
-      </div>
-      <div class="assistance-action">
-        <a class="big-phone" href="tel:+15077220465">+1 (507) 722-0465</a>
-        <a class="light-btn" href="tel:+15077220465">Call for Assistance</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="about-section" id="about">
-  <div class="container about-box">
-    <div>
-      <div class="eyebrow">ABOUT SERVICES</div>
-      <h2>Independent customer assistance</h2>
-      <p>Fitbit Help Guide provides independent guidance and assistance for common Fitbit-related questions. We help customers understand setup and troubleshooting steps and direct them to official resources when appropriate.</p>
-    </div>
-  </div>
-</section>
+<section class="hero" id="home"><div class="wrap hero-grid"><div class="hero-copy"><h1>Need <span>DoorDash Help?</span></h1><p>Get quick support and easy guides for your DoorDash orders, payments, DashPass, account and more.</p><div class="feature-row"><div class="feature"><i>ϟ</i><span>Quick<br>Assistance</span></div><div class="feature"><i>⬟</i><span>Step-by-Step<br>Guides</span></div><div class="feature"><i>☏</i><span>Helpful<br>Resources</span></div></div><a class="hero-cta" href="tel:+15077220465"><span class="phone">☎</span><span><small>Independent Site Assistance</small><strong>507-722-0465</strong></span><span class="chevron">›</span></a></div>
+<div class="hero-art"><div class="art-backdrop"></div><div class="delivered"><b>✓</b> Helpful tips<br>& clear guidance</div><div class="phone-mock"><div class="phone-inner"><div class="burger">🍔</div><div class="line"></div><div class="line short"></div></div></div>
+<svg class="courier-svg" viewBox="0 0 440 390" role="img" aria-label="Illustration of a delivery rider on a red scooter">
+<defs><linearGradient id="redBody" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff5965"/><stop offset="1" stop-color="#d7071d"/></linearGradient><linearGradient id="scoot" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff3c4b"/><stop offset="1" stop-color="#d5081b"/></linearGradient></defs>
+<!-- scooter wheels and body --><circle cx="123" cy="333" r="43" fill="#252d38"/><circle cx="123" cy="333" r="27" fill="#8b96a2"/><circle cx="123" cy="333" r="16" fill="#dbe0e6"/><circle cx="331" cy="333" r="43" fill="#252d38"/><circle cx="331" cy="333" r="27" fill="#8b96a2"/><circle cx="331" cy="333" r="16" fill="#dbe0e6"/>
+<path d="M87 298 Q80 278 110 270 L180 257 L250 266 Q310 263 355 293 L364 318 Q360 333 337 333 L127 333 Q95 330 87 298Z" fill="url(#scoot)" stroke="#ffb1b8" stroke-width="6"/><path d="M104 295 L165 280 L223 286 L245 306 L112 306Z" fill="#ff6974"/><path d="M225 273 L269 236 L300 243 L325 284" fill="none" stroke="#242c36" stroke-width="12" stroke-linecap="round"/><path d="M281 234 L327 221" stroke="#242c36" stroke-width="11" stroke-linecap="round"/><path d="M327 221 L343 236" stroke="#242c36" stroke-width="8" stroke-linecap="round"/>
+<!-- rider legs --> <path d="M202 229 Q246 245 256 278 L230 301 L182 285 L167 258Z" fill="#202936"/><path d="M250 266 L291 284 L278 302 L233 293Z" fill="#202936"/><path d="M225 292 L284 297 Q295 305 283 315 L229 315 Q214 310 225 292Z" fill="#f5f7fa"/>
+<!-- torso and arms --><path d="M180 154 Q212 132 251 159 L276 229 Q251 251 195 241 L164 201Z" fill="url(#redBody)" stroke="#ff9ea7" stroke-width="5"/><path d="M184 173 L149 220 L184 244" fill="none" stroke="#f72b3d" stroke-width="25" stroke-linecap="round"/><path d="M246 177 L281 215 L327 218" fill="none" stroke="#f72b3d" stroke-width="25" stroke-linecap="round"/><circle cx="326" cy="218" r="13" fill="#202936"/><circle cx="183" cy="245" r="12" fill="#202936"/>
+<!-- head and neck --> <rect x="201" y="130" width="42" height="38" rx="17" fill="#f3ad82"/><ellipse cx="221" cy="108" rx="54" ry="61" fill="#ffc79e" stroke="#eaa276" stroke-width="4"/><ellipse cx="202" cy="108" rx="6" ry="11" fill="#1e2935"/><ellipse cx="239" cy="108" rx="6" ry="11" fill="#1e2935"/><path d="M207 132 Q221 146 236 132" fill="none" stroke="#a9383b" stroke-width="5" stroke-linecap="round"/>
+<!-- helmet --> <path d="M164 102 Q154 36 218 28 Q279 30 278 98 L261 113 L169 113Z" fill="url(#redBody)" stroke="#fff0f1" stroke-width="6"/><path d="M173 96 Q220 82 270 96 L268 111 Q219 125 171 111Z" fill="#202936"/><path d="M187 45 Q222 31 252 49" fill="none" stroke="#ff9ba4" stroke-width="7" stroke-linecap="round"/>
+<!-- delivery bag --> <path d="M270 157 L319 148 Q334 147 339 162 L351 237 Q353 250 339 254 L290 259 Q276 259 273 245Z" fill="url(#redBody)" stroke="#252d38" stroke-width="7"/><path d="M288 171 L324 166" stroke="#ff8e98" stroke-width="5" stroke-linecap="round"/><path d="M296 205 L324 184 M309 184 L324 184 L324 199" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- jacket highlight --> <path d="M209 168 L223 200 L236 170" fill="#fff" opacity=".9"/><path d="M183 182 L164 219" stroke="#ff8b96" stroke-width="5" stroke-linecap="round"/>
+</svg><div class="route"></div><div class="pin">📍</div></div></div></section>
+<section class="section" id="topics"><div class="wrap"><div class="section-head"><h2>How Can We <span>Help You?</span></h2><p>Choose a topic below to get guides and support.</p></div><div class="topics">
+<a class="topic" href="missing-order.html"><div class="emoji">🛍️</div><h3>Missing or Incorrect Order</h3><p>Items missing, wrong food or incomplete order.</p><span class="arrow">›</span></a>
+<a class="topic" href="order-not-delivered.html"><div class="emoji">🚚</div><h3>Order Not Delivered</h3><p>App shows delivered but you didn't receive your food.</p><span class="arrow">›</span></a>
+<a class="topic" href="late-delivery.html"><div class="emoji">◷</div><h3>Late Delivery</h3><p>Your order is delayed or arrival time keeps changing.</p><span class="arrow">›</span></a>
+<a class="topic" href="refund-request.html"><div class="emoji">💸</div><h3>Refund Request</h3><p>Request a refund or check refund status.</p><span class="arrow">›</span></a>
+<a class="topic" href="payment-charges.html"><div class="emoji">💳</div><h3>Payment & Charges</h3><p>Payment issues, duplicate charges or unknown transactions.</p><span class="arrow">›</span></a>
+<a class="topic" href="promo-codes.html"><div class="emoji">％</div><h3>Promo Codes & Credits</h3><p>Discount code not working or missing credits.</p><span class="arrow">›</span></a>
+<a class="topic" href="dashpass-membership.html"><div class="emoji">👑</div><h3>DashPass Membership</h3><p>Questions about subscription, cancellation or benefits.</p><span class="arrow">›</span></a>
+<a class="topic" href="cancel-order.html"><div class="emoji">❌</div><h3>Cancel Order</h3><p>Cancel an order or check cancellation options.</p><span class="arrow">›</span></a>
+<a class="topic" href="account-access.html"><div class="emoji">👤</div><h3>Account Access</h3><p>Login issues, account changes or security concerns.</p><span class="arrow">›</span></a>
+<a class="topic" href="app-issues.html"><div class="emoji">⚙️</div><h3>App Issues</h3><p>Trouble using the app, errors or technical issues.</p><span class="arrow">›</span></a>
+<a class="topic" href="delivery-details.html"><div class="emoji">📍</div><h3>Change Delivery Details</h3><p>Update address, delivery instructions or contact info.</p><span class="arrow">›</span></a>
+<a class="topic" href="restaurant-issues.html"><div class="emoji">🍴</div><h3>Restaurant Issues</h3><p>Food quality, wrong order or special requests.</p><span class="arrow">›</span></a>
+</div></div></section>
+<section class="contact-band" id="contact"><div class="wrap contact-content"><div class="contact-art"><div class="big-phone">🍔</div><div class="food-icons">🍟<br>🥤</div><div style="font-size:48px">💬</div></div><div class="support-copy"><h2>Still Need Help?</h2><h3>Independent Site Assistance</h3><p>Get help navigating these guides. </p><a class="hero-cta" href="tel:+15077220465"><span class="phone">☎</span><span><strong>507-722-0465</strong></span><span class="chevron">›</span></a></div></div></section>
+<section class="guides" id="guides"><div class="wrap"><div class="section-head"><h2>Helpful <span>Step-by-Step Guides</span></h2><p>General information for common delivery issues.</p></div><div class="guide-grid">
+<article class="guide" id="guide-missing"><small>GUIDE 01</small><h3>Missing or incorrect order</h3><ol><li>Open the official app and select your order.</li><li>Choose the order-help or report-a-problem option.</li><li>Select the issue and describe it accurately.</li><li>Follow the resolution options shown.</li></ol></article>
+<article class="guide" id="guide-undelivered"><small>GUIDE 02</small><h3>Order not delivered</h3><ol><li>Check the delivery photo and drop-off notes.</li><li>Look around your designated drop-off area.</li><li>Confirm the address in your order details.</li><li>Report the issue through official order help.</li></ol></article>
+<article class="guide" id="guide-late"><small>GUIDE 03</small><h3>Late delivery</h3><ol><li>Check the latest arrival estimate in the app.</li><li>Review delivery updates or messages.</li><li>Open order help if the delay is substantial.</li><li>Use official support for order-specific help.</li></ol></article>
+<article class="guide" id="guide-refund"><small>GUIDE 04</small><h3>Refund request</h3><ol><li>Find your order and any refund confirmation.</li><li>Check the original payment method.</li><li>Review the platform's processing timeline.</li><li>Contact official support for an update.</li></ol></article>
+<article class="guide" id="guide-payment"><small>GUIDE 05</small><h3>Payments and charges</h3><ol><li>Compare the transaction with your receipt.</li><li>Check whether it may be a pending authorization.</li><li>Never share passwords or one-time codes.</li><li>For unfamiliar charges, contact your bank and the platform.</li></ol></article>
+<article class="guide" id="guide-promo"><small>GUIDE 06</small><h3>Promo codes and credits</h3><ol><li>Check the code's expiry and eligibility terms.</li><li>Confirm the order meets any minimum requirement.</li><li>Enter the code before checkout.</li><li>Ask official support about eligible codes that fail.</li></ol></article>
+<article class="guide" id="guide-membership"><small>GUIDE 07</small><h3>DashPass membership</h3><ol><li>Open membership settings in the official app.</li><li>Review your plan, renewal date and charges.</li><li>Use the displayed cancellation process if needed.</li><li>Save confirmation for your records.</li></ol></article>
+<article class="guide" id="guide-cancel"><small>GUIDE 08</small><h3>Cancel an order</h3><ol><li>Open the active order promptly.</li><li>Check whether a cancellation option is available.</li><li>Review any fee or refund notice before confirming.</li><li>Use official help if you need assistance.</li></ol></article>
+<article class="guide" id="guide-account"><small>GUIDE 09</small><h3>Account access</h3><ol><li>Use the official account recovery process.</li><li>Reset your password through the platform.</li><li>Secure the email linked to your profile.</li><li>Report suspicious activity through official channels.</li></ol></article>
+<article class="guide" id="guide-app"><small>GUIDE 10</small><h3>App issues</h3><ol><li>Check your connection and app updates.</li><li>Close and reopen the app.</li><li>Write down any error message.</li><li>Contact official support if the issue continues.</li></ol></article>
+<article class="guide" id="guide-address"><small>GUIDE 11</small><h3>Delivery details</h3><ol><li>Review the address and delivery notes.</li><li>Use in-app contact options where available.</li><li>Do not post access codes publicly.</li><li>Follow the app's options for active orders.</li></ol></article>
+<article class="guide" id="guide-quality"><small>GUIDE 12</small><h3>Restaurant issues</h3><ol><li>Keep the receipt and packaging where practical.</li><li>Take photos if the platform requests them.</li><li>Report the issue against the correct order.</li><li>Follow the resolution options from official support.</li></ol></article>
+</div></div></section>
+<section class="section" id="faq"><div class="wrap"><div class="section-head"><h2>Frequently Asked <span>Questions</span></h2><p>What to know before contacting support.</p></div><div class="faq"><details><summary>Is this the official DoorDash website?</summary><p>No. This is an independent guide and is not affiliated with, endorsed by, or operated by DoorDash.</p></details><details><summary>Can this website issue refunds?</summary><p>No. Refund eligibility and processing are handled by the delivery platform. Use its official app or Help Center for order-specific requests.</p></details><details><summary>Does the phone number belong to DoorDash?</summary><p>No. The displayed number is for the independent website operator, not DoorDash's official customer-service number.</p></details></div></div></section>
 </main>
-
-<footer class="site-footer">
-  <div class="container footer-top">
-    <a class="brand" href="index.html"><span class="brand-mark">F</span><span>Fitbit Help Guide</span></a>
-    <div class="footer-links">
-      <a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="disclaimer.html">Disclaimer</a><a href="cookies.html">Cookie Notice</a>
-      <a href="https://support.google.com/fitbit/" target="_blank" rel="noopener">Official Fitbit Help ↗</a>
-    </div>
-  </div>
-  <div class="container footer-bottom">© 2026 Fitbit Help Guide. All rights reserved.</div>
-</footer>
+<footer><div class="wrap"><div class="footer-grid"><div><div class="footer-logo">DoorDash Help<span>& Support</span><small>Independent Guide</small></div><p class="footer-about">Easy-to-follow information for common food-delivery questions, orders, payments, memberships and account access.</p></div><div><h4>Quick Links</h4><div class="footer-links"><a href="#home">Home</a><a href="#topics">Help Topics</a><a href="#guides">Guides</a><a href="#contact">Contact</a></div></div><div><h4>Official Help Resources</h4><div class="footer-links"><a href="https://help.doordash.com/en-us/consumers" target="_blank" rel="noopener">DoorDash Help Center ↗</a><a href="https://www.doordash.com/" target="_blank" rel="noopener">DoorDash official website ↗</a></div><h4 style="margin-top:16px">Independent Site Assistance</h4><a class="footer-phone" href="tel:+15077220465">507-722-0465</a></div></div><div style="margin-top:16px;padding:5px 8px;border:1px solid rgba(255,255,255,.18);border-radius:8px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:5px;background:rgba(255,255,255,.05)"><div><strong style="display:block;color:#fff;font-size:8px;font-weight:600;line-height:1.2">Looking for grocery order information?</strong><span style="display:block;color:#cbd0d8;font-size:7px;line-height:1.2;margin-top:1px">Open our separate Kroger order and tracking information guide.</span></div><a href="kroger/index.html" style="display:inline-flex;align-items:center;gap:3px;background:#fff;color:#20242b;padding:4px 6px;border-radius:6px;font-weight:700;font-size:9px;text-decoration:none">Kroger Order Help Guide <span aria-hidden="true">→</span></a></div><div style="margin-top:5px;padding:5px 8px;border:1px solid rgba(255,255,255,.18);border-radius:8px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:5px;background:rgba(255,255,255,.05)"><div><strong style="display:block;color:#fff;font-size:8px;font-weight:600;line-height:1.2">Looking for doorbell setup information?</strong><span style="display:block;color:#cbd0d8;font-size:7px;line-height:1.2;margin-top:1px">Open our separate doorbell setup and troubleshooting guide.</span></div><a href="doorbell/index.html" style="display:inline-flex;align-items:center;gap:3px;background:#fff;color:#20242b;padding:4px 6px;border-radius:6px;font-weight:700;font-size:9px;text-decoration:none">Doorbell Help Guide <span aria-hidden="true">→</span></a></div>
+<div class="footer-bottom"><span>© <span id="year"></span> DoorDash Help Guide. All Rights Reserved.</span><span class="footer-links" style="display:flex;flex-direction:row;gap:16px;flex-wrap:wrap"><a href="privacy-policy.html">Privacy Policy</a><span class="disclaimer">Independent guide — not affiliated with DoorDash.</span></span></div></div></footer>
+<script>const menu=document.getElementById('menu'),nav=document.getElementById('navlinks');menu.addEventListener('click',()=>{let open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.textContent=open?'✕':'☰'});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.textContent='☰'}));document.getElementById('year').textContent=new Date().getFullYear();const links=[...nav.querySelectorAll('a')],sections=links.map(a=>document.querySelector(a.hash)).filter(Boolean);window.addEventListener('scroll',()=>{let id='home';sections.forEach(s=>{if(s.getBoundingClientRect().top<145)id=s.id});links.forEach(a=>a.classList.toggle('active',a.hash==='#'+id))},{passive:true});</script>
 </body></html>
