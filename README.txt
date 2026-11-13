@@ -1,5 +1,1 @@
-Instacart Order & Delivery Help website
-
-Open index.html in a browser to preview the homepage.
-Keep styles.css, script.js, privacy.html, the assets folder, and the guides folder alongside index.html when uploading.
-The guide cards open their own topic pages. Each guide page includes the customer assistance number and a click-to-call link.
+Independent informational help-guide website with a home page, 12 topic pages, and a separate privacy policy page. Open index.html to preview. Each help-topic card opens its matching guide page. The Privacy Policy link in the footer opens privacy-policy.html. Keep all HTML files together in the same hosting directory. Site assistance number: 9203457857. This site is not affiliated with or endorsed by DoorDash and is not official DoorDash customer support.
