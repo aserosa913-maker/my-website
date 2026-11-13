@@ -1,1 +1,5 @@
-Independent informational help-guide website with a home page, 12 topic pages, and a separate privacy policy page. Open index.html to preview. Each help-topic card opens its matching guide page. The Privacy Policy link in the footer opens privacy-policy.html. Keep all HTML files together in the same hosting directory. Site assistance number: 9203457857. This site is not affiliated with or endorsed by DoorDash and is not official DoorDash customer support.
+DoorDash Help Guide website with dedicated topic pages.
+
+Open index.html to preview the home page. Each help-topic card opens a separate HTML page with step-by-step guidance and the clickable site assistance number +1 (920) 345-7857.
+
+This is an independent informational resource and is not affiliated with or endorsed by DoorDash. Upload all HTML files together to the same hosting directory so the topic links continue to work.
