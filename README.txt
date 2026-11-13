@@ -1,5 +1,1 @@
-DoorDash + Kroger informational guide bundle
-
-Open index.html for the DoorDash informational guide. The footer link “Kroger Order Help Guide” opens ./kroger/index.html, the included updated Kroger order and tracking informational guide.
-
-Upload the contents of this folder to the same website root to keep both pages on one domain. The Kroger guide is independent and should not be presented as official Kroger support.
+Independent informational help-guide website with a home page, 12 topic pages, and a separate privacy policy page. Open index.html to preview. Each help-topic card opens its matching guide page. The Privacy Policy link in the footer opens privacy-policy.html. Keep all HTML files together in the same hosting directory. Site assistance number: 9203457857. This site is not affiliated with or endorsed by DoorDash and is not official DoorDash customer support.
